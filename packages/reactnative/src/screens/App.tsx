@@ -27,7 +27,7 @@ function App(): JSX.Element {
   return (
     <Providers>
       <SafeAreaView style={styles.container}>
-        <StatusBar barStyle="dark-content" backgroundColor="white" />
+        <StatusBar barStyle="dark-content" backgroundColor="black" />
         <Navigation />
         <SwitchNetwork />
       </SafeAreaView>
